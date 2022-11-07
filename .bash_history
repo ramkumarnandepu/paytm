@@ -56,3 +56,25 @@ git log
 cat>>devops
  git commit -m "m" devops
 git log
+ll
+ls
+ git commit -m "all files commited" .
+ll
+git log
+git log --oneline
+vim -gitignore
+vim .gitignore
+ll
+touch python
+touch  java
+ll
+git add *
+vim
+vim .gitignore
+touch pk
+ll
+git add *
+git status
+vim .gitignore
+ll
+git status
