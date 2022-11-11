@@ -207,3 +207,38 @@ sytemctl status jenkins
 systemctl status jenkins
 git log
 ll
+git status
+git add
+git add .
+git status
+ll
+git remote add origin https://github.com/ramkumarnandepu/paytm.git
+git push -u origin java
+git push -u origin sure
+git branch
+ll
+git raam
+git ram
+git branch ram
+git branch 
+git checkout ram
+git checkout pk
+git checkout rk
+git checkout sure
+ll
+git push -u origin rk
+touch aws linux devops
+ll
+git push -u origin rk
+git add *
+git push -u origin rk
+git commit -m "all files committed" .
+git push -u origin rk
+git push -u origin sure
+ll
+git push -u origin devops
+git status
+git logout
+git log
+exitt
+exit
