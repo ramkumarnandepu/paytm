@@ -1,0 +1,179 @@
+
+After launch the Git 
+FIrst u will Go to the root user in any tool root user is the ultimate king 
+
+to go to the root user command 
+sudo su - 
+or
+sudo -i
+
+to exit root user to ec2 means command
+exit
+
+Then install the git
+yum install git -y
+
+to know the version
+git --version
+
+empty repository to intialize  and to track 
+ls -al 
+git init .
+
+list
+ls
+
+long list
+ll
+
+to create a file means command
+touch 
+
+to create a files example aws devops linux then we check the status or any chnges in aws to know means 
+git add filenamegive 
+
+to know the file status command 
+git status
+any file was tracking means that file was in green colour
+
+
+to commit the file means
+git commit -m "u will any measage because in real time dev no te changes interaction "filename
+git commit -m "two files commited" .   if give dot means every commited file will show
+
+
+to save the file command 
+ctrl+d
+
+
+to put the data in a file means then command
+cat>>filename 
+then it show in red colour because u will modified
+
+
+git history to see means command
+git log
+
+
+to know the which file commit means to copy the commit id and 
+git show commitid paste --name-only
+
+to create a multiple files 
+touch file{1..5}
+
+
+to track all files
+git add *
+
+
+to track all files and hidden files
+git add .
+
+
+in real time manager check who will work root
+git config user.name "ramkumar"
+git config user.email "ram@gmail.com"
+
+
+
+all commit id shows
+git log --oneline  and 
+if u want top two or three commits means  give  number
+git log -2
+
+
+
+If u want do not track all files in any one file 
+vim -gitignore
+
+i= insert
+
+esc=escape
+
+:wq=write and quit
+
+:q= quit
+
+rm -rf * (remove all files)
+
+git commit -m "remove" .
+
+
+if u r create.txt .jpg .png files if u r not tracking the dot txt file means go to vim .gitignore
+* .txt
+
+
+how to untrack the file means 
+git rm --cached ram.png
+
+rm -rf devops6.txt {to remove the file}
+git restore devops6.txt {to restore the file}
+
+
+git stash {to use temparory purpose for save}
+git stash apply {to resore the files}
+git stash pop {latest delete}
+git stash clear {to clear all}
+
+if u want to create a branch
+git branch ram  (ram is file name)
+git branch -d file name (to delete file)
+git checkout ram (to go branch ram)
+
+
+============================================================================
+git 2
+==========
+to get an empty repository 
+git init .
+
+
+if u want to commit file 
+git commit -m "file name committed" filename
+
+if u want to know what u want commit id paste and show the details
+git show 55f11f151d51d5f5d1f --name-only
+
+
+
+to delete all files
+rm -rf *
+
+
+if u want to merge to branch file to master then use command
+git merge 
+
+
+* means all because use git add *  git commit * this is the main  reason
+
+if u add u r code to git hub then u type this command in git 
+git restore add origin https:/copy link github thne paste on git
+
+
+if u add git file in git hub then
+git push -u origin sure(filename)
+
+type name create token password how means
+go to git hub
+select profile and select settings
+in last deeloper settings
+personal access token
+token classic
+crete name how many u will  use 7 days 
+save it copy the token paste anywhere it willshow one time only
+
+
+
+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
+
+
+
+  
+
+
+
+
+
+
+
+ 
